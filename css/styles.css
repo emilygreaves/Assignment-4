@@ -45,6 +45,7 @@ header li {
 body {
   background-image: url('../images/background.jpg');
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 ul li {
