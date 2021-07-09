@@ -1,0 +1,66 @@
+/*===============================
+
+
+Universal Styling
+
+
+==============================*/
+@font-face{
+  font-family: 'Caviar'
+  src: url('../fonts/caviar.ttf') format('truetype');
+}
+
+body {
+  background-image: url('../images/desert.jpg');
+  background-attachment: fixed;
+}
+
+* {
+  margin: 10px;
+  padding: 10 px;
+}
+
+ul li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Righteous', sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  color: #4da7b1;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Righteous', sans-serif;
+  text-align: center;
+  color: #4da7b1;
+}
+
+h3 {
+  font-family: 'Righteous', sans-serif;
+  text-align: center;
+  color: #4da7b1;
+}
+
+p {
+  font-family: 'Caviar', sans-serif;
+  text-align: center;
+}
+
+section {
+  background-color: #fbf9f947
+}
+
+
+img {
+  width: 30%;
+  margin: auto;
+  display: block;
+}
