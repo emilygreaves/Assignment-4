@@ -5,19 +5,37 @@ Universal Styling
 
 
 ==============================*/
+
+* {
+  margin: 10px;
+  padding: 10 px;
+}
+
 @font-face{
   font-family: 'Caviar'
   src: url('../fonts/caviar.ttf') format('truetype');
 }
 
+header {
+    background: #000000;
+    color: white;
+    padding: 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header li {
+    display: inline-block;
+    margin: 0 10px
+}
+
+
 body {
   background-image: url('../images/desert.jpg');
   background-attachment: fixed;
-}
-
-* {
-  margin: 10px;
-  padding: 10 px;
 }
 
 ul li {
