@@ -12,8 +12,8 @@ Universal Styling
 }
 
 @font-face{
-  font-family: 'Caviar'
-  src: url('../fonts/caviar.ttf') format('truetype');
+  font-family: 'Helvetica Neue'
+  src: url('../fonts/helveticaneue.ttf') format('truetype');
 }
 
 header {
@@ -28,6 +28,8 @@ header {
 header a {
     color: white;
     text-decoration: none;
+    font-family: 'Helvetica Neue';
+    text-transform: uppercase;
 }
 
 header li {
@@ -58,7 +60,7 @@ li a {
 }
 
 h1 {
-  font-family: 'Righteous', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   text-align: center;
   text-decoration: underline;
   color: #4da7b1;
@@ -67,19 +69,19 @@ h1 {
 }
 
 h2 {
-  font-family: 'Righteous', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   text-align: center;
   color: #4da7b1;
 }
 
 h3 {
-  font-family: 'Righteous', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   text-align: center;
   color: #4da7b1;
 }
 
 p {
-  font-family: 'Caviar', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   text-align: center;
 }
 
