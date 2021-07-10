@@ -30,6 +30,7 @@ header a {
     text-decoration: none;
     font-family: 'Helvetica Neue';
     text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 header li {
@@ -65,7 +66,7 @@ h1 {
   text-align: center;
   text-decoration: underline;
   color: #000000;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   text-transform: uppercase;
 }
 
@@ -74,6 +75,7 @@ h2 {
   text-align: left;
   color: #000000;
   text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 h3 {
