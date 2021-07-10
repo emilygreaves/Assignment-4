@@ -100,7 +100,7 @@ section {
 }
 
 img {
-  width: 30%;
+  max-width: 800px;
   margin: auto;
   display: block;
 }
