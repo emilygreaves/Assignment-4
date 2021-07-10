@@ -64,7 +64,7 @@ h1 {
   font-family: 'Helvetica Neue', sans-serif;
   text-align: center;
   text-decoration: underline;
-  color: #4da7b1;
+  color: #000000;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -72,14 +72,14 @@ h1 {
 h2 {
   font-family: 'Helvetica Neue', sans-serif;
   text-align: left;
-  color: #4da7b1;
+  color: #000000;
   text-transform: uppercase;
 }
 
 h3 {
   font-family: 'Helvetica Neue', sans-serif;
   text-align: left;
-  color: #4da7b1;
+  color: #000000;
 }
 
 p {
