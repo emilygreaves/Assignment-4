@@ -57,7 +57,7 @@ ul li {
 
 li a {
   text-decoration: none;
-  text-align: center;
+  text-align: left;
 }
 
 h1 {
@@ -71,19 +71,20 @@ h1 {
 
 h2 {
   font-family: 'Helvetica Neue', sans-serif;
-  text-align: center;
+  text-align: left;
   color: #4da7b1;
+  text-transform: uppercase;
 }
 
 h3 {
   font-family: 'Helvetica Neue', sans-serif;
-  text-align: center;
+  text-align: left;
   color: #4da7b1;
 }
 
 p {
   font-family: 'Helvetica Neue', sans-serif;
-  text-align: center;
+  text-align: left;
 }
 
 section {
@@ -92,6 +93,7 @@ section {
 
 section {
   margin: 40px 0;
+  text-align: left;
 }
 
 img {
