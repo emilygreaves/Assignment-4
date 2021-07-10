@@ -63,8 +63,8 @@ li a {
 
 h1 {
   font-family: 'Helvetica Neue', sans-serif;
-  text-align: center;
-  text-decoration: underline;
+  text-align: right;
+  text-decoration: none;
   color: #000000;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -103,4 +103,24 @@ img {
   max-width: 800px;
   margin: auto;
   display: block;
+}
+
+/*===============================
+
+
+Position Styling
+
+
+==============================*/
+
+.text-image-container {
+  position: relative;
+  max-width: 600px;
+}
+
+.text-container {
+  position: absolute;
+  top: 0;
+  color: #ffffff;
+  padding: 20px 20px 100px 680px;
 }
