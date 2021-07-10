@@ -57,6 +57,7 @@ ul li {
 
 li a {
   text-decoration: none;
+  text-align: center;
 }
 
 h1 {
@@ -89,6 +90,9 @@ section {
   background-color: #fbf9f947
 }
 
+section {
+  margin: 40px 0;
+}
 
 img {
   width: 30%;
