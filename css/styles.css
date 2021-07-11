@@ -133,3 +133,31 @@ Position Styling
   color: #ffffff;
   padding: 40px 20px 20px 570px;
 }
+
+.sandworm {
+  position: absolute;
+  top: 600px;
+  left: 0px;
+  animation-name: run;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-delay: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  
+
+}
+
+
+
+@keyframes run {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(900px);
+  }
+
+  0%
+  100%
+}
