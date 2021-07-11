@@ -107,13 +107,13 @@ section {
 
 section {
   max-width: 800px;
-  margin: 40px;
+  margin-top: 20px;
   padding: 20px;
   text-align: left;
 }
 
 img {
-  max-width: 720px;
+  max-width: 800px;
   margin: auto;
   display: block;
 }
@@ -138,17 +138,19 @@ Position Styling
   padding: 120px 80px 20px 570px;
 }
 
+.poster {
+  float: left;
+  margin: 0 30px 20px 0;
+}
+
 .sandworm {
   max-width: 170px;
   position: absolute;
   top: 600px;
   left: 0px;
-  animation-name: drive;
-  animation-duration: 30s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-name: drive 30s forwards infinite linear;
 }
+
 
 
 @keyframes drive {
