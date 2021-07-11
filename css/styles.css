@@ -135,11 +135,12 @@ Position Styling
 }
 
 .sandworm {
+  max-width: 170px;
   position: absolute;
   top: 600px;
   left: 0px;
   animation-name: drive;
-  animation-duration: 20s;
+  animation-duration: 30s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
