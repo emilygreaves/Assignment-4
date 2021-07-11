@@ -40,11 +40,12 @@ header a {
     font-family: 'Helvetica Neue';
     text-transform: uppercase;
     letter-spacing: 2px;
+    padding-right: 30px;
 }
 
 header li {
     display: inline-block;
-    margin: 0 px
+    margin: 0px;
 }
 
 .container {
@@ -146,9 +147,9 @@ Position Styling
 .sandworm {
   max-width: 170px;
   position: absolute;
-  top: 600px;
+  top: 700px;
   left: 0px;
-  animation-name: drive 30s forwards infinite linear;
+  animation: drive 30s forwards infinite linear;
 }
 
 
