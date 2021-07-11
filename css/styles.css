@@ -138,26 +138,19 @@ Position Styling
   position: absolute;
   top: 600px;
   left: 0px;
-  animation-name: run;
-  animation-duration: 10s;
+  animation-name: drive;
+  animation-duration: 20s;
   animation-fill-mode: forwards;
-  animation-delay: 8s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  
-
 }
 
 
-
-@keyframes run {
+@keyframes drive {
   from {
-    transform: translateX(0px);
+    transform: translateX(-200px);
   }
   to {
-    transform: translateX(900px);
+    transform: translateX(1000px);
   }
-
-  0%
-  100%
 }
