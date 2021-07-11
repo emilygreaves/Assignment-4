@@ -16,6 +16,14 @@ Universal Styling
   src: url('../fonts/helveticaneue.ttf') format('truetype');
 }
 
+
+nav a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+  transition: .3s;
+}
+
+
 header {
     background: #000000;
     color: white;
