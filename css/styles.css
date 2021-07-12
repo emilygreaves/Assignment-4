@@ -12,7 +12,7 @@ Universal Styling
 }
 
 @font-face{
-  font-family: 'Helvetica Neue'
+  font-family: 'Helvetica Neue';
   src: url('../fonts/helveticaneue.ttf') format('truetype');
 }
 
